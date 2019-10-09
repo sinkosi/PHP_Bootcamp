@@ -26,7 +26,7 @@
                             <centre>
                                 <a href="#" title="Advance"><img class="img_icon" src="resources/arrow.png"/></a>
                                 <a href="#" title="Take"><img class="img_icon" src="resources/main.png"></a>
-                                <a href="#" title="Look"><img class="img_icon" src="resources/oeil.png"></a>
+                                <a href="#" title="Look"><img class="img_icon_border" src="resources/oeil.png"></a>
                                 <a href="#" title="Use"><img class="img_icon" src="resources/outil.png"></a>
                                 <a href="#" title="Speak"><img class="img_icon" src="resources/chat-icon.png"></a>
                             </centre>
@@ -35,7 +35,11 @@
             <!--Banner Left complete-->
             <article class="col8">
                 <div class="banner_box">
-                    <img class="img_cluster" src="resources/cluster.jpg">
+                    <img class="img_cluster" src="resources/cluster.jpg" usemap="#image-map">
+                    <map name="image-map">
+                        <area target="" alt="IKEA" title="IKEA" href="http://www.ikea.com" coords="306,290,390,481" shape="rect">
+                        <area target="" alt="APPLE" title="APPLE" href="http://www.apple.com" coords="715,274,872,423" shape="rect">
+                    </map>
                 </div>
             </article>
             <!--BANNER RIGHT START-->
@@ -45,15 +49,19 @@
                         <a href="#" title="Don't Panic Book"><img class="img_icon" src="resources/book.png"/></a>
                         <a href="#" title="Towel"><img class="img_icon" src="resources/towel.png"/></a>
                     </centre>
-                    <a href="#" title="bricks"><img class="img_icon" src="resources/brick.jpg"/></a>
+                    <!--<a href="#" title="bricks"><img class="img_icon" src="resources/brick.jpg"/></a>-->
+                    <div class="brick" title="brick"></div>
                 </div>
             </aside>
             <!--Banner right complete-->            
         <!--Banners complete, time for text box-->
             <div class="text_box">
-                This part is written in French and I cannot translate nor will I type what I don't understand. Any thoughts?
-                <input type="text">
-                <button>Submit</button>
+                <!--You <span class="text_large"> enter </span> a large room filled with <span class="text_shadow">computers</span> <br />
+                <span class="text_italic">-Hello, are you new here?</span>... <br />-->
+                Vous <span class="text_large"> entrez </span> alors dans une grande remplie <span class="text_shadow">d'ordinateurs</span>...<br />
+                <span class="text_italic">- Bonjour, vous êtes nouveau ici ?</span> <br />
+                <input type="text" size="48px">
+                <button onclick="">Submit</button>
             </div>
         </div>
     </body>
