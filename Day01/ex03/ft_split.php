@@ -1,5 +1,4 @@
 <?php
-
 function    ft_split($str)
 {
     if (is_string($str))
@@ -11,5 +10,4 @@ function    ft_split($str)
     else
         return (FALSE);
 }
-
 ?>

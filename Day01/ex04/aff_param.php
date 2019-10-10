@@ -1,7 +1,5 @@
 #!/usr/bin/php
-
 <?php
-
 if (isset($argv) && isset($argc))
 {
     $i = 1;
@@ -12,6 +10,5 @@ if (isset($argv) && isset($argc))
     }
 }
 else
-    print ("\n");
-    
+    print ("\n"); 
 ?>

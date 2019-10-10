@@ -1,26 +1,21 @@
 #!/usr/bin/php
-
 <?php
-GET WAMP SERVER
-while ($i == $i)
+$i = fopen('php://stdin', 'r');
+while ($i)
 {
     print("Enter a number: ");
-    $get_next_line = new <input type="text" name="" id="">
-    $var = $get_next_line->current();
-
-    if (strlen($var) == 0)
+    $get_next_line = rtrim(fgets(STDIN));
+    if (feof(STDIN))
     {
-        print ("\n");
-        exit (0);
+        print("\n");
+        exit ();
     }
-    else
-        $var = rtrim($var, "\n");
-
+    $var = $get_next_line;
     if (is_numeric($var)) 
     {
         $var = (int)$var;
 
-        print ("The number ".$var." is ")
+        print ("The number ".$var." is ");
         if ($var % 2 == 0)
             print ("even");
         else
@@ -30,5 +25,4 @@ while ($i == $i)
         print("'".$var."' is not a number");
     print("\n");
 }
-
 ?>
