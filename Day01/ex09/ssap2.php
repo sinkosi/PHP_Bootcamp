@@ -1,5 +1,5 @@
 #!/usr/bin/php
-<?php
+<?php 
     unset($argv[0]);//remove argv[0] from argv array
     $str = array();
     foreach ($argv as $value) {
@@ -12,7 +12,7 @@
         else
             array_push($str, $value);
     }
-    sort($str);
+    asort($str);
     foreach($str as $value)
         print ($value."\n");
 ?>
