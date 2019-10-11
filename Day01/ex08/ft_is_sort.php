@@ -11,6 +11,4 @@ function ft_is_sort($str)
         $i++;
     }
     return (TRUE);
-    print_r($my_arr);
-    print_r($str);
 }
